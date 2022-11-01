@@ -1,0 +1,29 @@
+//ES5 Global Constants
+
+var PI = 3.14;
+
+PI = 42; // stop me from doing this! 
+
+// my answer; 
+//ES2015 Global Constants
+
+/* Write an ES2015 Version
+const PI = 3.14; 
+PI = 42; //Error! 
+
+
+// Q U I Z 
+
+/*What is the difference between var and let? 
+  You can reassign and redeclare var, but you cannot redeclare using let. You can access a hoisted variable with var. Let creates a block scope. 
+  
+ What is the difference between var and const? 
+  Const creates a block scope and cannot be redeclared. You can reassign and redeclare with var. You can also access a hoisted variable with var. 
+  
+ What is the difference between let and const? 
+  You can reassign with let, but you can not reassign or redeclare with the const keyword. 
+  
+ What is hoisting? 
+  In the JS compiler, "hoisted" variables are lifted to the top of the scope they are declared in. When using var, you can access the variable name and its undefined value before it is used later on in the code. 
+  
+  Function declarations are also hoisted and can be used before they are defined in the code. 
